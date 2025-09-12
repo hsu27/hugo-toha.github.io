@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: zh-TW
+title: "Hsu Liang Hui's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -20,18 +20,19 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  tw:
+    languageCode: zh-TW
+    languageName: 繁體中文
+    title: 徐良慧的部落格
+    weight: 0
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Hsu Liang Hui's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: tw
 
 
 # Allow raw html in markdown file
@@ -265,7 +266,7 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
-    
+
     # Enables copy code button
     copyCodeButton:
       enable: true
@@ -273,7 +274,7 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
+
     # Number of posts to show to each page. Default is "12"
     pagination:
        maxPostsPerPage: 12
