@@ -2,12 +2,12 @@
 name: "徐良慧"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, 我是"
-image: "images/author/jessica.png"
+image: "images/author/programmer.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "lhhsu01@gmail.com"
   github: hsu27
-  linkedin: www.linkedin.com/in/lianghui-h-3502431b9
+  linkedin: lianghui-h-3502431b9
 
 # some summary about what you do
 summary:
