@@ -1,0 +1,66 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+# your projects
+projects:
+- name: 影像處理專案
+  # logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  timeline: "2023"
+  repo: https://github.com/hsu27/ImageProcessing # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: 使用 JAVA 實作濾波器、Laplacian 邊緣偵測、OTSU 二值化等技術進行影像處理.
+  tags: ["Filter", "Edge Detection", "OTSU"]
+
+- name: 訂單預測系統開發
+  # logo: /images/sections/projects/no-code.png
+  role: Contributor
+  timeline: "Oct 2019 - Dec 2019"
+  # repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: 使用多種模型預測訂單數量，透過 FastAPI 寫入資料庫以便即時呈現在網頁。
+  tags: ["LSTM", "FastAPI", "SQLAlchemy"]
+
+- name: 大學專題:飲食追蹤 APP
+  role: Contributor
+  timeline: "Jul 2022 - Jul 2023"
+  # url: "https://www.example.com"
+  summary: 透過照片分析食物品項進而預估營養素的份量以及總熱量
+  tags: ["Android","Firebase","TensorFlow Lite"]
+
+
+- name: 發票購票證申請及查詢網站
+  # logo: /images/sections/projects/toha.png
+  # image: /images/sections/projects/toha_website.png
+  role: Developer
+  timeline: "2022"
+  # repo: https://github.com/hossainemruz/toha
+  summary: 可以以前後台申請及查詢發票的網站.
+  tags: ["Apache","SQL","Microsoft SQL Server","PHP"]
+
+- name: Arduino 教案設計
+  # logo: /images/sections/projects/toha.png
+  # image: /images/sections/projects/toha_website.png
+  role: Contributor
+  timeline: "2021"
+  # repo: https://github.com/hossainemruz/toha
+  summary: 設計 Arduino 教案以協助國中學生學習程式設計與電子電路.
+  tags: ["Arduino","電路圖","程式設計"]

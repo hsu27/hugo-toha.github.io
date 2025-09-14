@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: 天工精密股份有限公司
+    url: "https://www.104.com.tw/company/18svfexk"
+    location: 台中
+    # logo: /images/sections/experiences/company1.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: 開發訂單預測系統.
+  positions:
+  - designation: 研發實習生
+    start: Sep 2024
+    end: Jan 2025
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 使用多種模型（如 ARIMA、LSTM、XGBoost 等）預測訂單數量，並透過 FastAPI 寫入資料庫以便即時呈現在網頁。
+    - 使用 Git 和 GitHub 進行版本控制和協作開發，確保代碼的質量和一致性。
+    - 結合 AutoML 自動挑選最佳模型以提升準確度。
+
+- company:
+    name: 中正大學
+    url: "https://secretar.ccu.edu.tw/"
+    location: 嘉義
+    logo: /images/sections/education/CCU.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: 秘書室網頁開發、維護負責中正大學秘書室的網站開發與維護工作。
+  positions:
+  - designation: 網頁實習生
+    start: Jun 2021
+    end: Aug 2023
+    responsibilities:
+    - 網頁開發、維護
+    - 管理網域

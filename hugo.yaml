@@ -21,15 +21,15 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   tw:
-    languageCode: zh-TW
+    languageCode: tw
     languageName: 繁體中文
     title: 徐良慧的部落格
     weight: 0
-  en:
-    languageCode: en
-    languageName: English
-    title: "Hsu Liang Hui's Blog"
-    weight: 1
+  # en:
+  #   languageCode: en
+  #   languageName: English
+  #   title: "Hsu Liang Hui's Blog"
+  #   weight: 1
 
 # default language for the content
 defaultContentLanguage: tw

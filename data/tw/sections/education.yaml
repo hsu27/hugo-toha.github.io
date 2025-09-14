@@ -1,0 +1,87 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 資訊管理學系 碩士
+  icon: fa-graduation-cap
+  timeframe: 2023-2025
+  institution:
+    name: 國立中興大學
+    url: "https://mis.nchu.edu.tw/"
+    logo: /images/sections/education/NHCU.png
+    # Can optionally show a different logo for dark theme
+    darkLogo: /images/sections/education/NHCU.png
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: 影像處理：邊緣偵測、OTSU 二值化等影像技術
+      achieved: 4.0
+      outOf: 4
+    - name: 深度學習
+      achieved: 3.75
+      outOf: 4
+    - name: 高等資訊管理
+      achieved: 3.5
+      outOf: 4
+    - name: 資訊安全
+      achieved: 3.5
+      outOf: 4
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.6
+  #   outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+- name: 資訊管理學系 學士
+  icon: fa-university
+  timeframe: 2019-2023
+  institution:
+    name: 國立中正大學
+    url: "https://mis.ccu.edu.tw/"
+    logo: /images/sections/education/tech_college.png
+    # logo: /assets/images/sections/education/CCU.png
+    # Can optionally show a different logo for dark theme
+    darkLogo: /assets/images/sections/education/CCU.png
+  # grade: #(optional)
+  #   scale: GPT
+  #   achieved: 3.5
+  #   outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: 資料結構
+      achieved: 3.75
+      outOf: 4
+    - name: Arduino 相關課程
+      achieved: 3.80
+      outOf: 4
+    - name: 作業系統
+      achieved: 3.5
+      outOf: 4
+    - name: 人工智慧
+      achieved: 3.75
+      outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  extracurricularActivities: #(optional)
+  - 桃友會：帶領國小學生度過為期七天的營隊

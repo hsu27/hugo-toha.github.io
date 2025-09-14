@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Container
+  filter: "container"
+- name: Others
+  filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: TensorFlow
+  # logo: /images/sections/skills/go.png
+  summary: "能夠使用 TensorFlow 進行深度學習模型的建立、訓練與部署，並具備處理大型資料集的經驗。"
+  categories: ["language", "others"]
+  url: "https://www.tensorflow.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "熟悉容器化應用的開發與部署."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: Python
+  # logo: /images/sections/skills/python.png
+  summary: "曾參與 Python 相關專案開發，應用於資料分析、後端開發與自動化腳本。"
+  categories: ["language"]
+  url: "https://www.python.org/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "以 Linux 為主要開發與工作環境，熟悉系統操作與管理。"
+  categories: ["others"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "熟悉 Git 版本控制，也具備 GitHub 的協作與專案管理經驗。"
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Java
+  # logo: /images/sections/skills/c++.png
+  summary: "具備 Java 開發經驗，熟悉物件導向程式設計"
+  categories: ["basic", "language"]
+
+- name: C/C++
+  logo: /images/sections/skills/c++.png
+  summary: "具備基本的 C/C++ 程式設計能力"
+  categories: ["basic", "language"]
